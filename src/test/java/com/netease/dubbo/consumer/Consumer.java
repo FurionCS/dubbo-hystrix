@@ -21,7 +21,7 @@ public class Consumer {
                 @Override
                 public void run() {
                     try {
-                        System.out.println(service.sayHello("杨少凯"));
+                        System.out.println("结果："+service.sayHello("cs"));
                     } catch (Exception ex) {
                         ex.printStackTrace();
                     }

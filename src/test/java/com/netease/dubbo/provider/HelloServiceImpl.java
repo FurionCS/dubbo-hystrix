@@ -12,6 +12,7 @@ public class HelloServiceImpl implements HelloService {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }*/
+      //throw new RuntimeException();
         return "Hello " + name;
     }
 
