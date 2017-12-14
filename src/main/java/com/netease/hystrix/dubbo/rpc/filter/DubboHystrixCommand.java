@@ -33,11 +33,6 @@ public class DubboHystrixCommand extends HystrixCommand<Result> {
     @Override
     protected Result run() throws Exception{
         return invoker.invoke(invocation);
-//        if(result.getException()!=null){
-//            throw new RuntimeException(result.getException());
-//        }else{
-//            return result;
-//        }
     }
 
     @Override

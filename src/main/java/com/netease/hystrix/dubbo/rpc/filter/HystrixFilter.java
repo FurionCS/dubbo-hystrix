@@ -8,7 +8,7 @@ import com.alibaba.dubbo.rpc.Invoker;
 import com.alibaba.dubbo.rpc.Result;
 import com.alibaba.dubbo.rpc.RpcException;
 
-@Activate(group = Constants.CONSUMER)
+@Activate(group = Constants.PROVIDER)
 public class HystrixFilter implements Filter {
 
     @Override
